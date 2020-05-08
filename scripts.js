@@ -9,7 +9,7 @@ window.onload = function() {
             document.getElementById('buton').onclick = function () { */
 
     http.onreadystatechange = callback; //NO PONER PARENTESIS!!!!!!!!!!!!!
-    http.open("GET", "http://localhost:3000/personas", true);
+    http.open("GET", "http://sofiabarreiro.github.io/personas", true);
     http.send();
 };
 
